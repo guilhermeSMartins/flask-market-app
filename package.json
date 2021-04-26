@@ -1,0 +1,12 @@
+{
+  "name": "flask-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "clear && nodemon --exec \"pipenv run python src/market.py\" -e py"
+  }
+}
